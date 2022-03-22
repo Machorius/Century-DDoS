@@ -1,5 +1,5 @@
 # Century-DDoS
-Century - iDDoS Tool. DDoSing is the most massive type of web and server attack. This tool can takedown strong webstites including goverment servers as well
+Century - iDDoS Tool. DDoSing is the most massive type of web and server attack. This tool can takedown strong webstites including goverment servers as well.
 
 # Installation
 ```
@@ -15,5 +15,5 @@ python century.py
 
 
 # Tested On :
-* Parrot OS
 * Kali linux
+* Mac OS (Error occurs saing that figlet: is unknown however program stil runs.)
