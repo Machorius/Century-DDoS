@@ -54,7 +54,7 @@ def progressbar(it, prefix="", size=60, file=sys.stdout):
     file.flush()
 
 os.system("figlet Century Starting - Up")
-    time.sleep(1)
+time.sleep(1)
 for i in progressbar(range(100), "Fetching Packets: ", 30):
     time.sleep(0.02)
 os.system('clear')
