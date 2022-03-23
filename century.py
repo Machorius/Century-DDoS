@@ -28,10 +28,9 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-print
 print "Author   : Ghoul3r"
 print "Github   : https://github.com/Ghoul3r"
-print
+
 ip = raw_input("IP Target: ")
 port = input("Port: ")
 
@@ -53,8 +52,6 @@ def progressbar(it, prefix="", size=60, file=sys.stdout):
     file.write("\n")
     file.flush()
 
-os.system("figlet Century Starting - Up")
-time.sleep(1)
 for i in progressbar(range(100), "Fetching Packets: ", 30):
     time.sleep(0.02)
 os.system('clear')
