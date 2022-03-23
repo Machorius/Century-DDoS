@@ -16,4 +16,4 @@ python century.py
 
 # Tested On :
 * Kali linux
-* Mac OS (Error occurs saing that figlet: is unknown however program stil runs.)
+* Mac OS (Error occurs saing that "figlet: is unknown" however program stil runs and works.)
