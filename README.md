@@ -6,7 +6,7 @@ Century - iDDoS Tool. DDoSing is the most massive type of web and server attack.
 sudo apt-get install git
 git clone https://github.com/Ghoul3r/Century-DDoS.git
 cd Century-DDoS
-python century.py
+python2.7 century.py
 ```
 
 # Result
