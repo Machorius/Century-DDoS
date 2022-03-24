@@ -27,7 +27,7 @@ bytes = random._urandom(1490)
 #############
 
 os.system("clear")
-os.system("figlet DDos Attack")
+os.system("figlet Century - DDoS")
 print "Author   : Ghoul3r"
 print "Github   : https://github.com/Ghoul3r"
 
@@ -58,12 +58,12 @@ os.system('clear')
 for i in progressbar(range(100), "Compliling Code: ", 30):
     time.sleep(0.09)
 os.system('clear')
-for i in progressbar(range(100), "Configuring Settings: ", 20):
+for i in progressbar(range(100), "Pinning Server: ", 20):
     time.sleep(0.04)
 os.system('clear')
-for i in progressbar(range(100), "Loading: ", 20):
+for i in progressbar(range(100), "Initializing: ", 20):
     time.sleep(0.01)
-os.system("figlet DDoS Started")
+os.system("figlet Century is Underway")
 time.sleep(3)
 os.system('clear')
 sent = 0
