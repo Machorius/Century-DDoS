@@ -4,9 +4,9 @@
 # | DDoSing is the most massive type of web and server attack                                     |
 # | This tool can takedown strong webstites including goverment servers as well                   |
 # |                                                                                               |
-# | author : Ghoul3r , version 1.6                                                                |
+# | author : Machorius , version 1.6                                                              |
 # |-----------------------------------------------------------------------------------------------|
-# | Copyright (c) 2022 Ghoul3r                                                                    |
+# | Copyright (c) 2022 Machorius                                                                  |
 # |-----------------------------------------------------------------------------------------------|
 # | Permission is hereby granted, free of charge, to any person obtaining a copy                  |
 # | of this software and associated documentation files (the "Software"), to deal                 |
